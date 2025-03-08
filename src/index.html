@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>todolistvery</title>
+</head>
+
+<body class="bg-baggg bg-auto bg-no-repeat flex justify-center mt-9">
+
+
+    <!-- it is cadr -->
+    <div class="text-white p-4">
+
+
+
+
+        <div class="w-[650px] text-center mx-auto mb-10">
+
+
+
+            <!-- it is matn -->
+            <div class="">
+                <p class="text-center text-5xl mb-8">FARALEARN TODO LIST</p>
+            </div>
+
+
+
+
+            <!-- it is inputs -->
+            <div class="">
+
+
+
+                <!-- it is something and color -->
+                <div class=" mb-5">
+                    <input type="text" placeholder="something here..." name="" id="textsom"
+                        class=" !text-black w-full p-2 mb-2 rounded-lg ">
+
+                    <p class="text-center text-orange-300 text-lg mb-2" id="Ptextsom">please write something</p>
+
+
+                    <div class="flex gap-1">
+                        <span
+                            class="block size-6 border border-white rounded-full bg-gradient-to-br from-white to-yellow-100"></span>
+                        <span
+                            class="block size-6 border border-white rounded-full bg-gradient-to-t	from-red-400 to-indigo-300"></span>
+                        <span
+                            class="block size-6 border border-white rounded-full bg-gradient-to-tr from-fuchsia-400 to-sky-500"></span>
+                        <span
+                            class="block size-6 border border-white rounded-full bg-gradient-to-r from-emerald-400 to-amber-300"></span>
+                        <span
+                            class="block size-6 border border-white rounded-full bg-gradient-to-br from-yellow-600 to-stone-500"></span>
+                        <span
+                            class="block size-6 border border-white rounded-full bg-gradient-to-b from-lime-400 to-orange-400"></span>
+                        <span
+                            class="block size-6 border border-white rounded-full bg-gradient-to-bl from-violet-500 to-pink-400"></span>
+                        <span
+                            class="block size-6 border border-white rounded-full bg-gradient-to-l from-blue-300 to-purple-400"></span>
+                        <span
+                            class="block size-6 border border-white rounded-full bg-gradient-to-tl from-indigo-300 to-green-300"></span>
+                    </div>
+                </div>
+
+
+
+                <!-- it is date time tog -->
+                <div class="flex justify-between mb-5">
+
+
+                    <!-- date -->
+                    <div class="">
+                        <p class="mb-4 text-center">choose Date</p>
+                        <select name="" id="selectbate" class="p-2 rounded-lg bg-zinc-600 border border-white">
+                            <option value="choose Day">choose Day</option>
+                            <option value="mars,3,2025">mars,3,2025</option>
+                            <option value="mars,4,2025">mars,4,2025</option>
+                            <option value="mars,5,2025">mars,5,2025</option>
+                            <option value="mars,6,2025">mars,6,2025</option>
+                            <option value="mars,7,2025">mars,7,2025</option>
+                            <option value="mars,8,2025">mars,8,2025</option>
+                        </select>
+                        <p class="text-center text-orange-300 text-sm mt-2" id="Pslectbate">please choose something</p>
+                    </div>
+
+
+                    <!-- time -->
+                    <div class="">
+                        <p class="mb-4 text-center">choose time</p>
+                        <select name="" id="selecttime" class="p-2 rounded-lg bg-zinc-600 border border-white">
+                            <option value="choose Time">choose Time</option>
+                            <option value="00,00AM">00,00AM</option>
+                            <option value="00,30AM">00,30AM</option>
+                            <option value="01,00AM">01,00AM</option>
+                            <option value="01,30AM">01,30AM</option>
+                            <option value="02,00AM">02,00AM</option>
+                            <option value="02,30AM">02,30AM</option>
+                        </select>
+                        <p class="text-center text-orange-300 text-sm mt-2" id="Pslecttime">please choose something</p>
+
+                    </div>
+
+
+                    <!-- tog -->
+                    <div class="">
+                        <p class="mb-4 text-center">write tog</p>
+                        <input type="text" placeholder="something here" name="" id="texttog"
+                            class="p-2 rounded-lg bg-zinc-600 border border-white">
+                        <p class="text-center text-orange-300 text-sm mt-2" id="Ptexttog">please write something</p>
+
+                    </div>
+                </div>
+
+
+
+                <!-- add remove -->
+                <div class="flex justify-end gap-4 mb-4">
+                    <div id="addd"
+                        class="p-1 text-blue-300 border border-blue-300 rounded-lg hover:bg-blue-300 hover:text-white hover:border-white hover:cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                        </svg>
+                    </div>
+                    <div id="remoo"
+                        class="p-1 text-red-300 border border-red-300 rounded-lg hover:bg-red-300 hover:text-white hover:border-white hover:cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 9.75 14.25 12m0 0 2.25 2.25M14.25 12l2.25-2.25M14.25 12 12 14.25m-2.58 4.92-6.374-6.375a1.125 1.125 0 0 1 0-1.59L9.42 4.83c.21-.211.497-.33.795-.33H19.5a2.25 2.25 0 0 1 2.25 2.25v10.5a2.25 2.25 0 0 1-2.25 2.25h-9.284c-.298 0-.585-.119-.795-.33Z" />
+                        </svg>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <div class="">
+
+
+
+            <!-- it is table -->
+            <div class="mb-4">
+
+
+                <table class="w-[1200px] table-fixed" id="table">
+
+                    <thead class="text-center  bg-gradient-to-l from-yellow-600 to-green-500">
+                        <tr class="">
+                            <th class="p-2">id</th>
+                            <th class="">Task Name</th>
+                            <th class="">Day</th>
+                            <th class="">Time</th>
+                            <th class="">Tog</th>
+                            <th class="">Status</th>
+                            <th class="">edit</th>
+                            <th class="">remove</th>
+                        </tr>
+                    </thead>
+
+
+                    <tbody id="tbodyy" class="text-center">
+
+                        <!-- <tr class="">
+                            <td class="idrfresh py-4" id="idd">1</td>
+
+                            <td class=""><span
+                                    class="p-2 bg-gradient-to-r from-emerald-400 to-amber-300 rounded-md">read
+                                    javascript</span></td>
+                            <td class="">mars,5,2025</td>
+                            <td class="">01,00AM</td>
+
+
+                            <td class=""><span class="p-2 bg-blue-400 rounded-md">javascript</span></td>
+
+                            <td class="">
+                                <button type="button"
+                                    class="p-1 text-red-500 border border-red-500 rounded-lg hover:bg-red-500 hover:text-white ">Not
+                                    Started</button>
+                            </td>
+
+                            <td class="text-center ">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor"
+                                    class="m-auto size-8 p-2 text-green-300 border border-green-300 rounded-lg hover:bg-green-300 hover:text-white hover:cursor-pointer">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
+                                </svg>
+
+                            </td>
+
+
+                            <td class="text-center">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor"
+                                    class="m-auto size-8 p-2 text-orange-300 border border-orange-300 rounded-lg hover:bg-orange-300 hover:text-white hover:cursor-pointer">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                </svg>
+
+                            </td>
+                        </tr> -->
+                    </tbody>
+
+                </table>
+
+                <p class="text-center my-4">count: <b id="bbb"></b></p>
+            </div>
+
+
+            <!-- it is text -->
+            <div class="mt-5">
+                <h1 class="text-amber-600 text-5xl pl-3 mb-4">Todo list guide</h1>
+                <p class="">number1 : Choose your task with different colors</p>
+                <p class="">number2 : Click on the Not Started once to turnit into In Progress</p>
+                <p class="">number3 : Click on the In progress once more to turn it into a Done</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
